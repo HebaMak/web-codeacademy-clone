@@ -5,10 +5,6 @@
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 :root {
   --pink-color: #fff0e5;
   --blue-color: #3a10e5;
@@ -22,14 +18,12 @@ a {
 body {
   background-color: var(--pink-color);
   font-family: 'Open Sans', sans-serif;
-  height: 2000px;
 }
 
 /* Navbar */
 .navbar {
   background-color: transparent !important;
   height: 80px;
-  position: relative;
 }
 
 .navbar.scroll {
@@ -116,16 +110,137 @@ body {
   transform: rotate(360deg);
 }
 
+/* header */
 
 
+.header {
+  padding-top: 110px;
+  display: flex;
+}
 
+.header .left-sec {
+  flex: 6;
+}
 
+.left-sec .img-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
 
+.left-sec .img-container img {
+  width: 100%;
+}
 
+.header .right-sec {
+  flex: 6;
+}
 
+.right-sec .rightsec-content {
+  width: 70%;
+  margin: auto;
+}
 
+.rightsec-content h4 {
+  margin-bottom: 20px;
+  word-spacing: 2px;
+  line-height: 1.7;
+  font-weight: bolder;
+}
 
+.rightsec-content form {
+  width: 90%;
+  margin-bottom: 40px;
+}
 
+.rightsec-content .form-div {
+  position: relative;
+}
+
+.rightsec-content form input {
+  position: relative;
+  height: 50px;
+}
+
+.rightsec-content form .error-icon {
+  color: red;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  display: none;
+}
+
+.rightsec-content form .error-message {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+.rightsec-content form input:focus {
+  outline: none !important;
+  box-shadow: none;
+  border: 1px solid red;
+}
+
+.rightsec-content form .btn {
+  background-color: var(--blue-color);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rightsec-content form .btn:hover {
+  background-color: #5a37e9;
+}
+
+.rightsec-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.rightsec-content a {
+  text-decoration: underline;
+  color: var(--blue-color)
+}
+
+.rightsec-content h6 {
+  font-weight: bolder;
+  margin: 30px 0 20px;
+}
+
+.rightsec-content .social-links img {
+  width: 60px;
+  height: 54px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  margin-right: 5px;
+  margin-top: -9px;
+  cursor: pointer;
+}
+
+.rightsec-content .social-links i {
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 13px 18px;
+  margin-right: 5px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.rightsec-content .social-links .linked {
+  color: rgb(11, 136, 214)
+}
+
+.rightsec-content .social-links .face {
+  color: blue
+}
+
+.rightsec-content .social-links img:hover,
+.rightsec-content .social-links i:hover { 
+  background-color: #edeff9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
 
 
 
