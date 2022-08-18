@@ -111,8 +111,6 @@ body {
 }
 
 /* header */
-
-
 .header {
   padding-top: 110px;
   display: flex;
@@ -122,13 +120,13 @@ body {
   flex: 6;
 }
 
-.left-sec .img-container {
+.header .left-sec .img-container {
   width: 90%;
   margin: auto;
   padding-top: 40px;
 }
 
-.left-sec .img-container img {
+.header .left-sec .img-container img {
   width: 100%;
 }
 
@@ -136,33 +134,33 @@ body {
   flex: 6;
 }
 
-.right-sec .rightsec-content {
+.header .right-sec .rightsec-content {
   width: 70%;
   margin: auto;
 }
 
-.rightsec-content h4 {
+.header .rightsec-content h4 {
   margin-bottom: 20px;
   word-spacing: 2px;
   line-height: 1.7;
   font-weight: bolder;
 }
 
-.rightsec-content form {
+.header .rightsec-content form {
   width: 90%;
   margin-bottom: 40px;
 }
 
-.rightsec-content .form-div {
+.header .rightsec-content .form-div {
   position: relative;
 }
 
-.rightsec-content form input {
+.header .rightsec-content form input {
   position: relative;
   height: 50px;
 }
 
-.rightsec-content form .error-icon {
+.header .rightsec-content form .error-icon {
   color: red;
   position: absolute;
   right: 10px;
@@ -170,45 +168,45 @@ body {
   display: none;
 }
 
-.rightsec-content form .error-message {
+.header .rightsec-content form .error-message {
   color: red;
   font-size: 12px;
   display: none;
 }
 
-.rightsec-content form input:focus {
+.header .rightsec-content form input:focus {
   outline: none !important;
   box-shadow: none;
   border: 1px solid red;
 }
 
-.rightsec-content form .btn {
+.header .rightsec-content form .btn {
   background-color: var(--blue-color);
   color: #fff;
   font-size: 14px;
   font-weight: bold;
 }
 
-.rightsec-content form .btn:hover {
+.header .rightsec-content form .btn:hover {
   background-color: #5a37e9;
 }
 
-.rightsec-content p {
+.header .rightsec-content p {
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-.rightsec-content a {
+.header .rightsec-content a {
   text-decoration: underline;
   color: var(--blue-color)
 }
 
-.rightsec-content h6 {
+.header .rightsec-content h6 {
   font-weight: bolder;
   margin: 30px 0 20px;
 }
 
-.rightsec-content .social-links img {
+.header .rightsec-content .social-links img {
   width: 60px;
   height: 54px;
   border: 1px solid transparent;
@@ -218,7 +216,7 @@ body {
   cursor: pointer;
 }
 
-.rightsec-content .social-links i {
+.header .rightsec-content .social-links i {
   background-color: #fff;
   border: 1px solid transparent;
   padding: 13px 18px;
@@ -227,24 +225,204 @@ body {
   cursor: pointer;
 }
 
-.rightsec-content .social-links .linked {
+.header .rightsec-content .social-links .linked {
   color: rgb(11, 136, 214)
 }
 
-.rightsec-content .social-links .face {
+.header .rightsec-content .social-links .face {
   color: blue
 }
 
-.rightsec-content .social-links img:hover,
-.rightsec-content .social-links i:hover { 
+.header .rightsec-content .social-links img:hover,
+.header .rightsec-content .social-links i:hover { 
   background-color: #edeff9;
   border: 1px solid #ddd;
   border-radius: 3px;
 }
 
+/* start goal section */
+.goal {
+  margin-top: 50px;
+  display: flex;
+}
+
+.goal .left-sec {
+  flex: 5;
+}
+
+.goal .left-sec .leftsec-content{
+  padding: 50px;
+}
+
+.goal .leftsec-content h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+.goal .leftsec-content .first-header {
+  border-bottom: 1px solid #000;
+  transition: all .5s ease-in-out ;
+}
+
+.goal .leftsec-content .first-header h3 {
+  border: none;
+}
+
+.goal .first-header p {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  word-spacing: 2px;
+  font-weight: 500;
+}
+
+.goal .first-header:hover {
+  background-color: #fff;
+  padding-left: 15px;
+}
+
+.goal .leftsec-content h3 {
+  height: 80px;
+  border-bottom: 1px solid #000;
+  transition: all .5s ease-in-out;
+  font-weight: bold;
+  padding: 25px 0;
+  margin-bottom: 0;
+  font-size: 26px;
+}
+
+.goal .leftsec-content h3:hover {
+  background-color: #fff;
+  padding-left: 20px;
+  height: 90px;
+}
+
+.goal .right-sec {
+  flex: 7;
+  padding: 50px;
+  position: relative;
+}
+
+.goal .right-sec .rightsec-content {
+  background: url(https://res.cloudinary.com/hapiii/image/upload/v1660854288/HYF/week%20two/vny2xkteidxgwmlxyu9o.jpg) no-repeat;
+  padding: 50px;
+  justify-content: center;
+}
+
+.goal .right-sec .unit-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.goal .rightsec-content .cont-unit {
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 170px;
+  justify-content: space-between;
+  align-items: center;
+  width: 47.5%;
+  position: relative;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.goal .rightsec-content .cont-unit:hover {
+  box-shadow: -10px 10px 0px 0px #000;
+  transform: translate(5px , -5px);
+}
+
+.goal .rightsec-content .cont-unit:nth-child(1),
+.goal .rightsec-content .cont-unit:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.goal .rightsec-content .cont-unit:nth-child(1),
+.goal .rightsec-content .cont-unit:nth-child(3) {
+  margin-right: 5%;
+}
+
+.goal .cont-unit .title {
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.goal .cont-unit .title span {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0 2px;
+  margin-right: 5px;
+}
+
+.goal .cont-unit h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.goal .cont-unit .info {
+  padding-left: 25px;
+  position: relative;
+  font-size: 14px;
+}
+
+.goal .cont-unit .info:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  left: 10px;
+  top: 7px;
+  background-color: #000;
+}
+
+.goal .cont-unit .info span {
+  font-weight: bold;
+}
+
+.goal .cont-unit .foot-title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 3px 5px;
+  font-size: 14px;
+  color: #1d1247;
+  font-weight: 500;
+  background-color: #fff9f6;
+}
+
+.goal .foot-para {
+  color: var(--blue-color);
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  position: absolute;
+  right: 50px;
+  padding: 7px 25px;
+}
+
+.goal .foot-para i {
+  margin-top: 7px;
+  margin-left: 3px;
+  font-size: 10px;
+  position: relative;
+  position: absolute;
+}
+
+.goal .foot-para:hover {
+  background-color: rgb(215, 213, 213);
+  border-radius: 5px;
+}
 
 
-
+/* media query */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
