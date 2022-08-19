@@ -624,8 +624,48 @@ body {
   color: var(--blue-color)
 }
 
+/* join section */
+.join {
+  padding: 90px 0 70px;
+  background-color: var(--blue-color);
+  color: #fff;
+}
 
+.join .join-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.join .join-content .join-header {
+  margin-bottom: 0;
+  flex: 5;
+}
+
+.join .join-content .join-header h2 {
+  font-weight: bolder;
+  font-size: 40px;
+  width: 60%;
+  margin: auto;
+  line-height: 1.4;
+  word-spacing: 2px;
+}
+
+.join .join-content .elme {
+  flex: 2;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.join .join-content .elme h3 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.join .join-content .elme p {
+  font-size: 20px;
+  font-weight: bold;
+}
 
 
 
