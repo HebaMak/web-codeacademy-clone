@@ -521,6 +521,7 @@ body {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  outline: none;
 }
 
 .where-to .w-start .left-sec button:hover {
@@ -667,6 +668,79 @@ body {
   font-weight: bold;
 }
 
+/* start skills */
+.skills {
+  padding: 90px 0 50px;
+  background-color: var(--dark-blue);
+  color: #fff;
+}
+
+.skills .skills-container {
+  display: flex;
+}
+
+.skills .skills-container .left-sec {
+  flex: 6;
+  padding: 0 10%;
+}
+
+
+.skills .skills-container .left-sec h6 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 3px;
+}
+
+.skills .skills-container .left-sec h6 .logo {
+  padding: auto 3px;
+  border: 3px solid #fff;
+  margin-right: -3px;
+}
+
+.skills .skills-container .left-sec h6 .first-letter {
+  border-bottom: 3px solid #fff;
+}
+
+.skills .skills-container .left-sec .skills-span {
+  padding-left: 7px;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+
+.skills .skills-container .left-sec h2 {
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.skills .skills-container .left-sec p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.skills .skills-container .left-sec button {
+  background-color: var(--yellow-color);
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  /* transition: all .5s ease-in-out; */
+}
+
+.skills .skills-container .left-sec button:hover {
+  background-color: rgba(248, 191, 5, 0.864);
+}
+
+.skills .skills-container .right-sec {
+  flex: 6;
+  text-align: center;
+}
 
 
 
