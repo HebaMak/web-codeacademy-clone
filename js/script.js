@@ -15,7 +15,7 @@ window.addEventListener('scroll' , ()=> {
 //validate form input fields
 const errorMessage = document.querySelectorAll('form .form-div .error-message')
 const errorIcons = document.querySelectorAll('form .form-div .error-icon')
-const inputs = document.querySelectorAll('form input')
+const inputs = document.querySelectorAll('form .input')
 
 for(let i=0 ; i<inputs.length ; i++) {
   inputs[i].addEventListener('blur' , ()=> {
