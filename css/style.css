@@ -90,6 +90,10 @@ body {
   display: none;
 }
 
+.dropdown {
+  margin-right: 22px;
+}
+
 .dropdown-menu .dropdown-item {
   margin-bottom: 20px ;
 }
@@ -107,28 +111,26 @@ body {
   border-radius: 10px;
 }
 
-.dropdown .dropdown-toggle::after ,
-.dropdown.show .dropdown-toggle::after {
-  display: none;
-}
-
-.dropdown {
-  margin-right: 20px;
-}
-
-.dropdown i {
-  font-size: 12px;
+.dropdown .dropdown-toggle::after {
+  border: none;
+  content: '\f04b';
   position: absolute;
-  right: -7px;
-  top: 17px;
-  transition: all .5s ease-in-out;
-}
-.dropdown.show i {
-  color: var(--blue-color);
-  transform: rotate(-90deg);
   top: 15px;
+  right: -10px;
+  font-size: 12px;
+  display: block;
+  transition: all .5s ease-in-out;
+  font-family: "FontAwesome";
+  transform: rotate(90deg);
+  transition transform .5s ease-in-out;
 }
 
+.dropdown.show .dropdown-toggle::after {
+  border: none;
+  transform: rotate(-90deg);
+  color: var(--blue-color);
+  top: 12px;
+}
 
 .sms-showpart {
   display: none;
