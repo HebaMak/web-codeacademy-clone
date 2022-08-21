@@ -83,6 +83,7 @@ body {
   width: 100px;
   text-align: center;
 }
+
 .right-part .signup {
   width: 100px;
   text-align: center;
@@ -106,12 +107,28 @@ body {
   border-radius: 10px;
 }
 
+.dropdown .dropdown-toggle::after ,
 .dropdown.show .dropdown-toggle::after {
-  border-top: 0;
-  border-bottom: 0.3em solid;
-  transition: all .5s ease-in-out;
-  transform: rotate(360deg);
+  display: none;
 }
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.dropdown i {
+  font-size: 12px;
+  position: absolute;
+  right: -7px;
+  top: 17px;
+  transition: all .5s ease-in-out;
+}
+.dropdown.show i {
+  color: var(--blue-color);
+  transform: rotate(-90deg);
+  top: 15px;
+}
+
 
 .sms-showpart {
   display: none;
